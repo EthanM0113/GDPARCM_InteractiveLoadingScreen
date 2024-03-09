@@ -1,0 +1,7 @@
+Media/Textures/Desert.png
+Media/Textures/arrowUnlit.png
+Media/Textures/arrowLit.png
+Media/Textures/penguin.png
+Media/Textures/loading.png
+Media/Textures/discobg.png
+Media/Textures/banana.png

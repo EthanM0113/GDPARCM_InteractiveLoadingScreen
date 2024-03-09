@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7f885fa4-aabd-40a4-bf9d-d4cbef01033f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseRunner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureDisplay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp" />
+    <ClCompile Include="StringUtils.cpp" />
+    <ClCompile Include="AGameObject.cpp" />
+    <ClCompile Include="BGObject.cpp" />
+    <ClCompile Include="FPSCounter.cpp" />
+    <ClCompile Include="GameObjectManager.cpp" />
+    <ClCompile Include="IconObject.cpp" />
+    <ClCompile Include="IETThread.cpp" />
+    <ClCompile Include="StreamAssetLoader.cpp" />
+    <ClCompile Include="IExecutionEvent.cpp" />
+    <ClCompile Include="ThreadPool.cpp" />
+    <ClCompile Include="IWorkerAction.cpp" />
+    <ClCompile Include="PoolWorkerThread.cpp" />
+    <ClCompile Include="BusyWaitSemaphore.cpp" />
+    <ClCompile Include="IETSemaphore.cpp" />
+    <ClCompile Include="SimonSaysManager.cpp" />
+    <ClCompile Include="SSArrow.cpp" />
+    <ClCompile Include="DancePenguin.cpp" />
+    <ClCompile Include="GIFDisplay.cpp" />
+    <ClCompile Include="GIFFrame.cpp" />
+    <ClCompile Include="GIFFrameLoader.cpp" />
+    <ClCompile Include="LoadingBar.cpp" />
+    <ClCompile Include="DiscoBG.cpp" />
+    <ClCompile Include="DanceBanana.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseRunner.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureDisplay.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h" />
+    <ClInclude Include="StringUtils.h" />
+    <ClInclude Include="AGameObject.h" />
+    <ClInclude Include="BGObject.h" />
+    <ClInclude Include="FPSCounter.h" />
+    <ClInclude Include="GameObjectManager.h" />
+    <ClInclude Include="IconObject.h" />
+    <ClInclude Include="IETThread.h" />
+    <ClInclude Include="StreamAssetLoader.h" />
+    <ClInclude Include="IExecutionEvent.h" />
+    <ClInclude Include="ThreadPool.h" />
+    <ClInclude Include="IWorkerAction.h" />
+    <ClInclude Include="PoolWorkerThread.h" />
+    <ClInclude Include="BusyWaitSemaphore.h" />
+    <ClInclude Include="IETSemaphore.h" />
+    <ClInclude Include="SimonSaysManager.h" />
+    <ClInclude Include="SSArrow.h" />
+    <ClInclude Include="DancePenguin.h" />
+    <ClInclude Include="GIFDisplay.h" />
+    <ClInclude Include="GIFFrame.h" />
+    <ClInclude Include="GIFFrameLoader.h" />
+    <ClInclude Include="LoadingBar.h" />
+    <ClInclude Include="DiscoBG.h" />
+    <ClInclude Include="DanceBanana.h" />
+  </ItemGroup>
+</Project>
